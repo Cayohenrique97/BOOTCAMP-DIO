@@ -1,2 +1,2 @@
 # BOOTCAMP-DIO
-Acompanhar meus estudos do BOOTCAMP DIO DATABASE EXPERIENSE. 
+Acompanhar meus estudos do BOOTCAMP DIO DATABASE EXPERIENCE. 
