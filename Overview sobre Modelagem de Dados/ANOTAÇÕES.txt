@@ -1,0 +1,7 @@
+Introdução à Modelagem de Dados 
+
+Modelagem -> Possui foco na descrição e relacionamento dos elemntos que compoem a representacao do contexto
+
+delimita o contexto ( mini mundo ) requisitos para criação (Alto nivel) define a estrutura relacional (Esquema) criação do banco de dados (SGBD)
+
+Modelos de alto nível -> Entidade-Relacionamento e bUML
