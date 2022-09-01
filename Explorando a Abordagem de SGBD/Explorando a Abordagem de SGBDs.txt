@@ -1,0 +1,94 @@
+Explorando a Abordagem de SGBDs
+
+Abordagem de SGBD vs Abordagem Tradicional:
+
+Abordagem:
+	- voce nao precisa mais modificar a aplicação.
+	principais caracteristas:
+
+	abstração: isolamento entre problema e dados.
+
+	auto-descrição: descrição especifica e concisa dentro do banco de dados
+	
+	Multiplas Visoes: cada usuario tera uma visão diferente dos dados para proprio uso
+	
+	Compartilhando dados com diversos grupos distintos
+	
+	transção multiuser: SGBD tem que controlar os acessos
+
+Natureza Auto Descritiva: 
+	-Descrição da estrutura e suas regras.
+		
+
+Isolamento de dados e programa:
+
+	- Voce separa o dados do programa. Onde num mundo anterior pra fazer a transformação do dados voce teria que modificar toda sua aplicação para isso. 
+
+Multiplas Visoes: 
+	- Cada segmento da sua empresa, tem uma liberação para olhar os dados conforme suas necessidades. Essas visoes podem ser geradas apenas para views
+
+Compartilhamento e Processamento de transações:
+	-ACESSO CONCORRENTE
+		Mantem os dados coerentes.
+		
+	OLTP - Processo de transações online
+
+	*aplicação multiusuarios
+	** Gerenciador: transações concorrentes
+
+	OLAP - Analise de processo online 
+	
+
+Quais são os atores em Banco de dados
+
+Atores:
+	- atores do dia a dia: ADM, Designers e usuario final
+	
+	Designer: Identifica dados e requisitos, Reprentação e Estrutura e Fase Preliminar. Ou seja, mapea a estrutura do SGBD.
+
+	Admin: Gerencia Recursos, Orquestração e Autorização de Acesso
+	
+	Usuarios Finais: São aqueles que tem interesse nos dados no final. Accesso -> Querying e Categorizados
+		*Casual: Acesso ocasionais, diferentes informações e uso de API
+		*Ingenuos: Consideravel porção, canned transactions e ERRO: Raro
+		*Sofisticados: Tem noções basicas de como o sistema funciona, conhecimento de query.
+		*Standalone: A pessoa que tem um DB pessoal, só ele tem o acesso a base de dados.
+	
+	Engenheiro de Software: Analise de Sistema, Desenvolvimento da aplicação e teste e documentação da aplicação
+
+
+Workers:
+	Background: Desisgner do Sistema de SGBD
+		    Pessoal de operação e manutenção
+	 	    Implementação do sistema de SGBD
+		    Desenvolvedores de ferramentas ( ferramentas opcionais para diversos fins, como: performance, modelagem, análise )
+
+	
+Vantagens: 
+	
+	Controle de Redundancia
+	Restrição de acessos
+	Provendo Persistência
+	Caching: palavras chaves, dados recorrentes
+	buffering:
+	Indexação:
+	Backup:
+	Recovery:
+	Interface multiusuario:
+	Integridade de dados:
+	Inferencia
+	Acoes com Regras
+	Triggers
+
+Ganhos:
+	
+	Padronização (Tipo de dados, Display, Relatórios) 
+	Reducao de tempo no desenvolvimento da aplicação ( 
+	Flexibilidade
+	Disponibilidade de Informações Atualizadas
+	Economia com escalabilidade
+
+Quando não usar:
+	
+
+
